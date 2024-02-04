@@ -1,0 +1,119 @@
+<html>
+    
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Camping</title>
+        <link rel="stylesheet" href="campingstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <section>
+    <div class="campinghead">
+        <div class="navigation-links">
+        <ul>
+            <li><a href="homepage.html">HOME</a></li>
+            <li><a href="trails.html">TRAIL</a></li>
+            <li><a href="camping.html"><b>CAMPING</b></a></li>
+            <li><a href="wildlife.html">WILDLIFE</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="visitor%20information.html">VISITOR INFOMATION</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+            </ul>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="campdes"> <p>Welcome to Enchanted Falls National Park's Camping Haven!<br> Immerse yourself in the ultimate outdoor experience as you explore our diverse camping options. Whether you're a seasoned camper or a first-time adventurer,<br> our carefully curated camping category has something for everyone. Choose from scenic lakeside sites to secluded woodland retreats,<br> each providing a unique setting for your outdoor escape. Wake up to the melodies of nature, surrounded by the enchanting beauty of our park. Discover detailed information about camping facilities, amenities, <br>and reservation options to ensure a seamless and memorable stay. Plan your camping adventure at Enchanted Falls and create lasting memories beneath the stars in our picturesque natural haven.<br> Explore our camping category now and make the most of your wilderness getaway! </p></div>
+        
+        </div></section>
+        <div class="backc">
+        <section>
+        <div class="heading">
+            <h1><b>Camping Sites</b></h1>
+            
+            </div>
+        </section>
+        
+        
+        <section class="container_1">
+	<div class="slider-wrapper">
+		<div class="slider">
+			<img id="slide-1" src="photos/camp1-01.jpg" />
+			<img id="slide-2" src="photos/camp2-01.jpg" />
+			<img id="slide-3" src="photos/camp3-01.jpg" />
+		</div>
+		<div class="slider-nav">
+			<a href="#slide-1"></a>
+			<a href="#slide-2"></a>
+			<a href="#slide-3"></a>
+		</div>
+	</div>
+</section>
+            
+       <section>
+        <div class="heading">
+            <h1><b>Camping Reservation</b></h1>
+            
+            </div>
+        </section> 
+        
+        <section>
+          <div class="container">
+        <h2>Camping Reservation</h2><br><br>
+        <form action="submit_form.php" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+            <label for="campsite">Preferred Campsite:</label>
+            <select id="campsite" name="campsite" required>
+                <option value="site1">Site 1</option>
+                <option value="site2">Site 2</option>
+                <option value="site3">Site 3</option>
+            </select>
+
+            <label for="arrival">Arrival Date:</label>
+            <input type="date" id="arrival" name="arrival" required>
+
+            <label for="departure">Departure Date:</label>
+            <input type="date" id="departure" name="departure" required>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <button type="submit">Submit Reservation</button>
+        </form>
+    </div>
+        </section>
+    
+    <section>
+        <footer>
+<div class="footer">
+
+
+<div class="row">
+<ul>
+<li><a href="trails.html">TRAILS</a></li>
+<li><a href="camping.html">CAMPING</a></li>
+<li><a href="wildlife.html">WILDLIFE</a></li>
+<li><a href="gallery.html">GALLERY</a></li>
+<li><a href="visitor%20information.html">VISITOR INFORMATIONS</a></li>
+<li><a href="contactus.html">CONTACT US</a></li>
+</ul>
+</div>
+
+<div class="row">
+ Copyright © 2024 Enchanted Falls - All rights reserved<br>
+    Mail - info@enchantedfalls.com
+</div>
+</div>
+</footer>
+        </section></div>
+    </body></html>
